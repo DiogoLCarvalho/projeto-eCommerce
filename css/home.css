@@ -1,0 +1,181 @@
+/* Importar outras arquivos css */
+
+@import 'nav.css';
+.hero-section {
+    width: 100%;
+    /* 120px - altura do nav */
+    height: calc(100vh - 120px);
+    background-image: url('../img/header.png');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-section .logo {
+    height: 150px;
+    display: block;
+    margin: auto;
+}
+
+.hero-section .sub-heading {
+    margin-top: 10px;
+    text-align: center;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 35px;
+    font-weight: 300;
+}
+
+
+
+
+
+/* Produtos */
+
+/* Seção produto */
+.product {
+    position: relative;
+    overflow: hidden;
+    padding: 20px 0;
+}
+
+/* Title product */
+.product-category{
+    padding: 0 10vw;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 40px;
+    text-transform: capitalize;
+}
+
+/* Container dos produtos */
+.product-container{
+    padding: 0 10vw;
+    display: flex;
+    /* Criar barra lateral */
+    overflow-x: auto;
+    scroll-behavior: smooth;
+}
+/* Não deixa criar o scrool */
+.product-container::-webkit-scrollbar{
+    display: none;
+}
+
+/* Conteiner da imagem */
+.product-card{
+    flex: 0 0 auto;
+    width: 250px;
+    height: 450px;
+    margin-right: 40px;
+}
+
+/* Conteiner da imagem da imagem */
+.product-image{
+    position: relative;
+    width: 100%;
+    height: 350px;
+    overflow: visible;
+    background-color: #fff;
+}
+/* Finalmente a imagem em si */
+.product-thumb{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+/*  span = texto 50% = que vai ficar no .product-image*/
+.discount-tag{
+    position: absolute;
+    background: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    color: #ff7d7d;
+    right: 10px;
+    top: 10px;
+    text-transform: capitalize; 
+}
+/*  button = adicionar no carrinho = que vai ficar no .product-image*/
+.card-btn{
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px;
+    width: 90%;
+    text-transform: capitalize;
+    border: none;
+    outline: none;
+    background: #fff;
+    border-radius: 5px;
+    transition: .5s;
+    cursor: pointer;
+    opacity: 0;
+    color: #383838;
+}
+.product-card:hover .card-btn{
+    opacity: 1;
+}
+.card-btn:hover{
+    background: #efefef;
+}
+
+/* Informações do produto */
+.product-info{
+    width: 100%;
+    height: 100px;
+    padding-top: 10px;
+}
+/* h2 */
+.product-brand{
+    text-transform: uppercase;
+}
+/* p */
+.product-short-des{
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+    opacity: 0.5;
+    text-transform: capitalize;
+    margin: 5px 0;
+}
+/* Preço */
+.price{
+    font-weight: 900;
+    font-size: 20px;
+}
+.actual-price{
+    margin-left: 20px;
+    opacity: .5;
+    text-decoration: line-through;
+}
+
+/* Botões */
+.pre-btn,.ntx-btn{
+    border: none;
+    width: 10vw;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Criar uma sombra branca */
+    background:linear-gradient(90deg,rgba(255, 255, 255, 0) 0%, #fff 100%);
+    cursor: pointer;
+    z-index: 8;
+}
+.pre-btn{
+    left: 0;
+    transform: rotate(180deg);
+}   
+.ntx-btn{
+    right: 0;
+}
+.pre-btn img, .ntx-btn img{
+    opacity: .2;
+}
+.pre-btn:hover img,.ntx-btn:hover img{
+    opacity: 1;
+}
