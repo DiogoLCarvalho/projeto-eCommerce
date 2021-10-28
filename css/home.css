@@ -1,6 +1,7 @@
 /* Importar outras arquivos css */
-
 @import 'nav.css';
+@import 'footer.css';
+
 .hero-section {
     width: 100%;
     /* 120px - altura do nav */
@@ -178,4 +179,43 @@
 }
 .pre-btn:hover img,.ntx-btn:hover img{
     opacity: 1;
+}
+
+
+
+
+/* Coleções */
+
+/* section que segura tudo */
+.collection-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
+/* a que segura imgs e p */
+.collection{
+    position: relative;
+}
+/* só a imagem */
+.collection img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* Texto da imagem */
+.collection p{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   color: #fff;
+   transform: translate(-50%,-50%);
+   text-align: center;
+   font-size: 50px;
+   text-transform: capitalize;
+}
+/* faça que a terceira imagem ocupe toda a coluna da grid */
+.collection:nth-child(3){
+    grid-column: span 2;
+    margin-bottom: 10px;
 }
