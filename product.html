@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/product.css">
+    <title>Product Page</title>
+</head>
+<body>
+    <!-- Por isso vc aplica no Js. Para REUTILIZAR -->
+    <nav class="navbar"></nav>
+
+    <section class="product-details">
+        <div class="image-slider">
+            <div class="product-images">
+                <img src="img/product image 1.png" alt="image-product" class="active">
+                <img src="img/product image 2.png" alt="image-product">
+                <img src="img/product image 3.png" alt="image-product">
+                <img src="img/product image 4.png" alt="image-product">
+            </div>
+        </div>
+        <div class="details">
+            <h2 class="product-brand">Calvin klein</h2>
+            <p class="product-short-des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui recusandae tempore, modi tempora non incidunt. </p>
+            <span class="product-price">R$100</span>
+            <span class="product-active-price">R$200</span>
+            <span class="product-discount">(50% off)</span>
+
+            <p class="product-sub-heading">selecione o tamanho</p>
+             
+            <input type="radio" name="size" id="p-size" value="p" hidden checked>
+            <label for="p-size" class="size-radio-btn check">p</label>
+
+            <input type="radio" name="size" id="m-size" value="m" hidden >
+            <label for="m-size" class="size-radio-btn">m</label>
+
+            <input type="radio" name="size" id="g-size" value="g" hidden >
+            <label for="g-size" class="size-radio-btn">g</label>
+
+            <input type="radio" name="size" id="gg-size" value="gg" hidden >
+            <label for="gg-size" class="size-radio-btn">gg</label>
+
+            <div>
+                <button class="btn cart-btn">Adicionar no Carrinho</button>
+                <button class="btn">Adicionar na Lista de Desejos</button>
+            </div>
+        </div>
+    </section>
+    
+    <section class="detail-des">
+        <h2 class="heading">Descrição</h2>
+        <p class="des"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi laudantium repudiandae quam aut commodi reiciendis, sit esse dolore itaque eligendi porro. Vel temporibus corrupti corporis perferendis delectus maiores dolor eos.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi laudantium repudiandae quam aut commodi reiciendis, sit esse dolore itaque eligendi porro. Vel temporibus corrupti corporis perferendis delectus maiores dolor eos.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi laudantium repudiandae quam aut commodi reiciendis, sit esse dolore itaque eligendi porro. Vel temporibus corrupti corporis perferendis delectus maiores dolor eos.</p>
+    </section>
+
+    <section class="product">
+        <h2 class="product-category">Melhores vendas</h2>
+        <button class="pre-btn"> <img src="img/arrow.png" alt="arrow"></button>
+        <button class="ntx-btn"> <img src="img/arrow.png" alt="arrow"></button>
+        <div class="product-container">
+            <div class="product-card">
+                
+                <div class="product-image">
+                    <span class="discount-tag">50% off</span>
+                    <img src="img/card1.png" alt="produto01" class="product-thumb">
+                    <button class="card-btn">Adicionar no Carrinho</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">Marca</h2>
+                    <p class="product-short-des">Lorem ipsum dolor sit amet consectetur </p>
+                    <span class="price">R$60</span><span class="actual-price">R$90</span>
+                </div>
+            </div>
+
+            <div class="product-card">
+                
+                <div class="product-image">
+                    <span class="discount-tag">50% off</span>
+                    <img src="img/card2.png" alt="produto01" class="product-thumb">
+                    <button class="card-btn">Adicionar no Carrinho</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">Marca</h2>
+                    <p class="product-short-des">Lorem ipsum dolor sit amet consectetur </p>
+                    <span class="price">R$60</span><span class="actual-price">R$90</span>
+                </div>
+            </div>
+
+            <div class="product-card">
+                
+                <div class="product-image">
+                    <span class="discount-tag">50% off</span>
+                    <img src="img/card3.png" alt="produto01" class="product-thumb">
+                    <button class="card-btn">Adicionar no Carrinho</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">Marca</h2>
+                    <p class="product-short-des">Lorem ipsum dolor sit amet consectetur </p>
+                    <span class="price">R$60</span><span class="actual-price">R$90</span>
+                </div>
+            </div>
+
+            <div class="product-card">
+                
+                <div class="product-image">
+                    <span class="discount-tag">50% off</span>
+                    <img src="img/card4.png" alt="produto01" class="product-thumb">
+                    <button class="card-btn">Adicionar no Carrinho</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">Marca</h2>
+                    <p class="product-short-des">Lorem ipsum dolor sit amet consectetur </p>
+                    <span class="price">R$60</span><span class="actual-price">R$90</span>
+                </div>
+            </div>
+
+            <div class="product-card">
+                
+                <div class="product-image">
+                    <span class="discount-tag">50% off</span>
+                    <img src="img/card5.png" alt="produto01" class="product-thumb">
+                    <button class="card-btn">Adicionar no Carrinho</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">Marca</h2>
+                    <p class="product-short-des">Lorem ipsum dolor sit amet consectetur </p>
+                    <span class="price">R$60</span><span class="actual-price">R$90</span>
+                </div>
+            </div>
+
+            <div class="product-card">
+                
+                <div class="product-image">
+                    <span class="discount-tag">50% off</span>
+                    <img src="img/card6.png" alt="produto01" class="product-thumb">
+                    <button class="card-btn">Adicionar no Carrinho</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">Marca</h2>
+                    <p class="product-short-des">Lorem ipsum dolor sit amet consectetur </p>
+                    <span class="price">R$60</span><span class="actual-price">R$90</span>
+                </div>
+            </div>
+
+            <div class="product-card">
+                
+                <div class="product-image">
+                    <span class="discount-tag">50% off</span>
+                    <img src="img/card8.png" alt="produto01" class="product-thumb">
+                    <button class="card-btn">Adicionar no Carrinho</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">Marca</h2>
+                    <p class="product-short-des">Lorem ipsum dolor sit amet consectetur </p>
+                    <span class="price">R$60</span><span class="actual-price">R$90</span>
+                </div>
+            </div>
+
+            <div class="product-card">
+                
+                <div class="product-image">
+                    <span class="discount-tag">50% off</span>
+                    <img src="img/card7.png" alt="produto01" class="product-thumb">
+                    <button class="card-btn">Adicionar no Carrinho</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">Marca</h2>
+                    <p class="product-short-des">Lorem ipsum dolor sit amet consectetur </p>
+                    <span class="price">R$60</span><span class="actual-price">R$90</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="product">
+        <h2 class="product-category">Tênis</h2>
+        <button class="pre-btn"> <img src="img/arrow.png" alt="arrow"></button>
+        <button class="ntx-btn"> <img src="img/arrow.png" alt="arrow"></button>
+        <div class="product-container">
+            <div class="product-card">
+                
+                <div class="product-image">
+                    <span class="discount-tag">50% off</span>
+                    <img src="img/card9.png" alt="produto01" class="product-thumb">
+                    <button class="card-btn">Adicionar no Carrinho</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">Marca</h2>
+                    <p class="product-short-des">Lorem ipsum dolor sit amet consectetur </p>
+                    <span class="price">R$60</span><span class="actual-price">R$90</span>
+                </div>
+            </div>
+
+            <div class="product-card">
+                
+                <div class="product-image">
+                    <span class="discount-tag">50% off</span>
+                    <img src="img/card10.png" alt="produto01" class="product-thumb">
+                    <button class="card-btn">Adicionar no Carrinho</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">Marca</h2>
+                    <p class="product-short-des">Lorem ipsum dolor sit amet consectetur </p>
+                    <span class="price">R$60</span><span class="actual-price">R$90</span>
+                </div>
+            </div>
+
+            <div class="product-card">
+                
+                <div class="product-image">
+                    <span class="discount-tag">50% off</span>
+                    <img src="img/card11.png" alt="produto01" class="product-thumb">
+                    <button class="card-btn">Adicionar no Carrinho</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">Marca</h2>
+                    <p class="product-short-des">Lorem ipsum dolor sit amet consectetur </p>
+                    <span class="price">R$60</span><span class="actual-price">R$90</span>
+                </div>
+            </div>
+
+            <div class="product-card">
+                
+                <div class="product-image">
+                    <span class="discount-tag">50% off</span>
+                    <img src="img/card12.png" alt="produto01" class="product-thumb">
+                    <button class="card-btn">Adicionar no Carrinho</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">Marca</h2>
+                    <p class="product-short-des">Lorem ipsum dolor sit amet consectetur </p>
+                    <span class="price">R$60</span><span class="actual-price">R$90</span>
+                </div>
+            </div>
+
+            <div class="product-card">
+                
+                <div class="product-image">
+                    <span class="discount-tag">50% off</span>
+                    <img src="img/card9.png" alt="produto01" class="product-thumb">
+                    <button class="card-btn">Adicionar no Carrinho</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">Marca</h2>
+                    <p class="product-short-des">Lorem ipsum dolor sit amet consectetur </p>
+                    <span class="price">R$60</span><span class="actual-price">R$90</span>
+                </div>
+            </div>
+
+            <div class="product-card">
+                
+                <div class="product-image">
+                    <span class="discount-tag">50% off</span>
+                    <img src="img/card10.png" alt="produto01" class="product-thumb">
+                    <button class="card-btn">Adicionar no Carrinho</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">Marca</h2>
+                    <p class="product-short-des">Lorem ipsum dolor sit amet consectetur </p>
+                    <span class="price">R$60</span><span class="actual-price">R$90</span>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+
+    <footer></footer>
+
+
+    <script src="js/nav.js"></script>
+    <script src="js/footer.js"></script>
+    <script src="js/home.js"></script>
+    <script src="js/product.js"></script>
+</body>
+</html>
