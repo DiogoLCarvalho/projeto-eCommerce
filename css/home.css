@@ -112,7 +112,10 @@
     transition: .5s;
     cursor: pointer;
     opacity: 0;
+}
+.card-btn a{
     color: #383838;
+    text-decoration: none;
 }
 .product-card:hover .card-btn{
     opacity: 1;
@@ -218,4 +221,13 @@
 .collection:nth-child(3){
     grid-column: span 2;
     margin-bottom: 10px;
+}
+
+@media (max-width: 520px){
+    .collection p{
+        font-size: 20px;
+     }
+    .hero-section .sub-heading {
+        font-size: 16px;
+    }
 }

@@ -6,9 +6,9 @@
 /* texto erro */
 .four-0-four-msg{
     text-align: center;
-    text-transform: capitalize;
     color: #383838;
 }
 .four-0-four-msg a{
     color: #383838;
+    font-weight: 700;
 }

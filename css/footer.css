@@ -92,3 +92,23 @@ footer{
     color: #fff;
     background: rgba(0, 0, 0, .2);
 }
+
+
+
+@media (max-width: 700px){
+    .footer-content{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .footer-content .logo{
+        height: 100px;
+    }
+    .footer-ul-container {
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .social-link {
+      margin-left: 1px;
+    }
+}

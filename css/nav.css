@@ -30,7 +30,7 @@
     align-items: center;
 }
 /* icons da nav */
-.nav-items a{
+.nav-items a:not(.btn-a){
     margin-left: 20px;
 }
 .nav-items a img{
@@ -67,13 +67,15 @@
     outline: none;
     cursor: pointer;
     background: #383838;
-    color: #fff;
     text-transform: capitalize;
     font-size: 15px;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
 }
-
+.search-btn a{
+    text-decoration: none;
+    color: #fff;
+}
 
 
 /* Segunda NavBar */
@@ -98,6 +100,58 @@
     opacity: .5;
     transition: .5s;
 }
+.links-container> li:first-child a{
+    font-weight: 700;
+}
 .link:hover{
     opacity: 1;
+}
+
+@media (max-width: 800px){
+    .search{
+        width: 400px;
+        justify-content: center;
+    }
+    .search-box {
+        width: 50%;
+    }
+    .search-btn{
+        padding: 10px 5px;
+    }
+}
+
+@media (max-width: 700px){
+    .search{
+        width: 300px;
+    }
+    .search-box {
+        width: 79%;
+    }
+    .search-btn{
+        padding:0;
+        font-size: 11px;
+    }
+}
+@media (max-width: 570px){
+    .nav{
+        padding: 0;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .search {
+        width: 245px;
+    }
+    .search-box {
+        width: 50%;
+    }
+    .search-btn {
+       width: 25%;
+    }
+    .links-container {
+        padding: 10px 0px;
+        flex-wrap: wrap;
+    }
+    .nav-items a img {
+        width: 20px;
+    }
 }
