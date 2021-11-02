@@ -9,18 +9,18 @@ const creatNav = () => {
         <div class="nav-items">
             <div class="search">
                 <input type="text" class="search-box" placeholder="Pesquisar marcas, produtos">
-                <button class="search-btn">Pesquisar</button>
+                <button class="search-btn"><a href="search.html" class="btn-a">Pesquisar</a></button>
             </div>
             <a href="#"><img src="img/user.png" alt="user"></a>
             <a href="#"><img src="img/cart.png" alt="cart"></a>
         </div>
     </div>
     <ul class="links-container">
-        <li class="link-item"><a href="#" class="link">Home</a></li>
-        <li class="link-item"><a href="#" class="link">Mulheres</a></li>
-        <li class="link-item"><a href="#" class="link">Homens</a></li>
-        <li class="link-item"><a href="#" class="link">Crianças</a></li>
-        <li class="link-item"><a href="#" class="link">Acessórios</a></li>
+        <li class="link-item"><a href="index.html" class="link">Home</a></li>
+        <li class="link-item"><a href="error.html" class="link">Mulheres</a></li>
+        <li class="link-item"><a href="error.html" class="link">Homens</a></li>
+        <li class="link-item"><a href="error.html" class="link">Crianças</a></li>
+        <li class="link-item"><a href="error.html" class="link">Acessórios</a></li>
     </ul>
     `
 }
