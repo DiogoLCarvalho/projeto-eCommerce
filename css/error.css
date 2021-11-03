@@ -1,14 +1,27 @@
 /* Imagem central */
-.four-0-four-image{
+.four-0-four-image {
     display: block;
     margin: 60px auto;
 }
+
 /* texto erro */
-.four-0-four-msg{
+.four-0-four-msg {
     text-align: center;
     color: #383838;
 }
-.four-0-four-msg a{
+
+.four-0-four-msg a {
     color: #383838;
     font-weight: 700;
+}
+
+@media (max-width: 570px) {
+    .four-0-four-image {
+        width: 100%;
+        object-fit: cover;
+    }
+    .four-0-four-msg {
+        text-align: justify;
+        margin: 20px;
+    }
 }

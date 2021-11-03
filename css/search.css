@@ -23,3 +23,21 @@
     height: auto;
     gap: 40px;
 }
+
+@media (max-width: 1400px) {
+    .product-container{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+@media (max-width: 1030px) {
+    .product-container{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media (max-width: 660px) {
+    .product-container{
+        grid-template-columns: repeat(1,1fr);
+        justify-items: center;
+        overflow: hidden;
+    }
+}
