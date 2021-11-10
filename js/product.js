@@ -20,7 +20,6 @@ productImages.forEach((item,i)=>{
 
         // Faça q o activeImageSilde seja == ao indice do img
         activeImageSilde = i;
-        console.log(activeImageSilde);
     })
 });
 
