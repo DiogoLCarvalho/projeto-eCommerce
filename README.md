@@ -19,7 +19,7 @@ Basta incluir no HTML a tag com a <i>class</i> correta.
 
 ![Captura de tela 2021-11-10 114143](https://user-images.githubusercontent.com/84794798/141133792-991339c5-e533-429f-b13c-ba8c1306e51c.png)
 
-O efeito de passar os produtos é pelos botões. Ao clicar no <i>nxtBtn</i>  é adicionado ao <i>.product-container</i> (div que segura os produtos)  um número, que aumenta o scroll lateral e ao clicar no <i>preBtn</i>  é removido. 
+O efeito da passagem de produtos é através dos botões. Ao clicar no <i>nxtBtn</i>  é adicionado ao <i>.product-container</i> (div que segura os produtos)  um número, que aumenta o scroll lateral e ao clicar no <i>preBtn</i>  é removido. 
 
 ![Captura de tela 2021-11-10 114804](https://user-images.githubusercontent.com/84794798/141134853-3c613f12-e27d-468c-9245-94e877126692.png)
 
